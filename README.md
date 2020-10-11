@@ -1,6 +1,6 @@
 ## This repo contains the solution of C++ part -  Advanced Programming HW6 - Dr. Jahanshahi - AUT 
 
-
+[![Build Status](https://travis-ci.org/sina-lib/AP1398-2-HW6Sol.svg?branch=master)](https://travis-ci.org/sina-lib/AP1398-2-HW6Sol)
 
 __Note:__
 
