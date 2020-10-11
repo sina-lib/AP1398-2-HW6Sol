@@ -14,5 +14,5 @@ addons:
 
 
 
-script: make  &&  app
+script: app
 
