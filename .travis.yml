@@ -14,5 +14,5 @@ addons:
 
 install: make
 
-script: make && ./app
+script: make  sina-lib/AP1398-2-HW6Sol  &&  sina-lib /AP1398-2-HW6Sol/app
 
