@@ -19,7 +19,7 @@
 int main(int argc, char* argv[])
 {
 	::testing::InitGoogleTest(&argc, argv);
-	std::cout << "\033[45m" << "<<<<<<<<<<<< Faranak >>>>>>>>>>>>>>"  << "\033[m" << std::endl;
+	std::cout << "\033[45m" << "<<<<<<<<<<<< SINA >>>>>>>>>>>>>>"  << "\033[m" << std::endl;
 	
 	return RUN_ALL_TESTS();
 }

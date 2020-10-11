@@ -300,16 +300,16 @@ namespace
 		//(*pg) = *g2; // what the fuck!
 		//std::cout << pg->getBrandName() << " - " << g2->getBrandName() << "  >>>  "<< (pg->operator==(*g2)) << std::endl;
 
-		std::deque< std::shared_ptr<BasicGoods> > ass;
+		std::deque< std::shared_ptr<BasicGoods> > assets;
 		
 		
-		ass.push_back(g1);
-		ass.push_front(g2);
-		ass.push_back(g3);
+		assets.push_back(g1);
+		assets.push_front(g2);
+		assets.push_back(g3);
 
-		//std::sort(ass.begin(), ass.end(), Shared_less<BasicGoods>() );
+		//std::sort(assets.begin(), assets.end(), Shared_less<BasicGoods>() );
 		
-		for (auto item: ass)
+		for (auto item: assets)
 		{
 			std::cout << item->getBrandName() << " price: " << item->getEndPrice() << std::endl;
 		}
