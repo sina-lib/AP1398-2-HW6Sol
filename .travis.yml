@@ -12,7 +12,7 @@ addons:
     - gcc-4.8
     - g++-4.8
 
-install: make
+
 
 script: make  sina-lib/AP1398-2-HW6Sol  &&  sina-lib /AP1398-2-HW6Sol/app
 
